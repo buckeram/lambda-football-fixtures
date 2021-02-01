@@ -9,7 +9,7 @@ $ pip install requests
 $ cd .venv/lib/python3.7/site-packages/
 $ zip -r ../../../../deployment.zip .
 $ cd ../../../../
-$ zip -g my-deployment-package.zip lambda_function.py
+$ zip -g deployment.zip lambda_function.py
 ```
 
 Upload the zip to AWS Lambda
